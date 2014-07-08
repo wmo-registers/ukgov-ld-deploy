@@ -1,0 +1,22 @@
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix reg:     <http://purl.org/linked-data/registry#> .
+@prefix ldp:     <http://www.w3.org/ns/ldp#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+
+<_SigConvectiveCloudType>
+    a reg:RegisterItem ;
+    reg:definition [ reg:entity <SigConvectiveCloudType> ] ;
+    reg:itemClass reg:Register ;
+    reg:notation "SigConvectiveCloudType" ;
+    reg:status reg:statusStable ;
+    .
+<SigConvectiveCloudType>
+    a reg:Register , ldp:Container , skos:Collection ;
+    ldp:membershipPredicate skos:member ;
+    rdfs:label "Significant convective cloud type" ;
+    dct:description "This register is intended specifically for aeronautical purposes; it lists those cloud types of significance to aeronautical operations as defined in WMO No. 49 Vol II - Meteorological Services for Air Navigation. A super-set of cloud-type categories are defined in WMO No. 306 Vol I.2 Part B FM 94 BUFR (edition 4) code-table 0 20 012 'Cloud type'."@en ;
+    reg:owner <http://codes.wmo.int/system/organization/wmo> ;
+    reg:manager <http://codes.wmo.int/system/organization/www-dm> ;
+    .

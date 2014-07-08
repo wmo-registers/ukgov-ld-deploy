@@ -1,0 +1,23 @@
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix reg:     <http://purl.org/linked-data/registry#> .
+@prefix ldp:     <http://www.w3.org/ns/ldp#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+
+<_1.0>
+    a reg:RegisterItem ;
+    reg:definition [ reg:entity <1.0> ] ;
+    reg:itemClass reg:Register ;
+    reg:notation "1.0" ;
+    reg:status reg:statusStable ;
+    .
+<1.0>
+    a reg:Register , ldp:Container , skos:Collection ;
+    ldp:membershipPredicate skos:member ;
+    reg:containedItemClass skos:Concept ;
+    rdfs:label "ICAO IWXXM observation types (1.0)" ;
+    dct:description "The members of this register are concepts relating to specialised Observation or Measurement classes defined within the 'ICAO Weather Information Exchange Model' (IWXXM/1.0). Each Observation or Measurement class listed herein derives from the OM_Observation class defined in ISO 19156 'Geographic information - Observations and measurements'."@en ;
+    reg:owner <http://codes.wmo.int/system/organization/wmo> ;
+    reg:manager <http://codes.wmo.int/system/organization/www-dm> ;
+    .
