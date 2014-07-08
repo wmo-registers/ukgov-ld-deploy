@@ -1,0 +1,274 @@
+/**
+ * UI additions to adapt bootstrap for registry UI. Dave Reynolds, 2013
+ */
+
+body {
+        background: white url(/ui/img/body_bg_big.png) repeat;
+        min-height: 600px;
+        margin-top: 40px;
+        color: #003380;
+}
+
+.container {
+        background-color: white;
+        -moz-box-shadow: 0 5px 24px #888;
+        -webkit-box-shadow: 0 5px 24px #888;
+        box-shadow: 0 5px 24px #888;
+        padding-left: 10px;
+        padding-right: 10px;
+}
+
+.table {
+   margin-bottom: 0em;
+}
+
+table tr td table {
+   margin-bottom: 0em;
+}
+
+.space-above {
+   margin-top: 1em;
+}
+
+.footer {
+    font-size: 0.8em;
+}
+
+.nav-text {
+    color: white;
+}
+
+.navbar-inner {
+    background-color: #003380;
+    background-image: -moz-linear-gradient(top,#003180,#003981);
+    background-image: -webkit-gradient(linear,0 0,0 100%,from(#003180),to(#003981));
+    background-image: -webkit-linear-gradient(top,#003180,#003981);
+    background-image: -o-linear-gradient(top,#003180,#003981);
+    background-image: linear-gradient(to bottom,#003180,#003981);
+    border: 1px solid #002f7f;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff003180',endColorstr='#ff003981',GradientType=0);
+}
+
+.navbar .nav>.active>a, .navbar .nav>.active>a:hover, .navbar .nav>.active>a:focus {
+    background-color: #00257c;
+}
+
+.navbar .nav>li>a:focus, .navbar .nav>li>a:hover {
+    background-color: #00257c;
+}
+
+.navbar .navbar-search .search-query {
+    border: 1px solid #00207b;
+}
+
+.navbar .nav>li>a {
+    text-shadow: 0 1px 0 #003180;
+}
+
+.panel {
+/*   font-size: 80%;
+   line-spacing: 80%;  */
+}
+
+.panel-head {
+    background-color: #003380;
+    color: lightgrey;
+    text-align: center;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    height: 30px;
+    padding: 3px;
+}
+
+.panel-body {
+   border-left: 5px solid lightgrey;
+   border-right: 5px solid lightgrey;
+   border-bottom: 5px solid lightgrey;
+   padding: 4px;
+}
+
+.result-blob {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+/*    background-color: #ff9b00;  */
+    background-color: #f5f5f5;  
+    margin-bottom: 20px;
+    /* margin-right: 5px; */
+}
+
+.blob {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.blob-inner {
+    padding: 5px;
+}
+
+.pale-blue {
+    background-color:  #d9f0f9;
+}
+
+.pale-orange {
+    background-color:  #f9dfc2;
+}
+
+.formats {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 2px solid lightgrey;
+    margin-bottom: 10px;
+    padding: 5px;
+   font-size: 80%;
+   line-spacing: 80%;
+}
+
+.formats dl {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.formats table tr td {
+    vertical-align: middle;
+}
+
+.test-blob {
+    background-color: grey;
+    text-align: center;
+ }
+
+ .test-border {
+    border: 2px solid lightgrey;
+ }
+
+ .tab-content {
+    border-left: 1px solid lightgrey;
+    border-right: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+    padding:  5px;
+ }
+
+.nav-compact {
+    margin-bottom: 0px;
+}
+
+#registration-dialog {
+    width: 700px;
+    top: 5%;
+    left: 40%;
+}
+
+#registration-body {
+   min-height: 500px;
+   min-width: 600px;
+}
+
+.modal.update {
+    width: 800px;
+    top: 5%;
+    left: 30%;
+}
+
+.modal-body.update {
+    max-height: 650px;
+}
+
+/* Modal pages */
+.modal-page-panel {
+    z-index: 1050;
+    background-color: white;
+    position: relative;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.modal-page-head {
+    padding: 5px 10px 5px 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.modal-page-body {
+    padding: 5px 10px 5px 10px;
+}
+
+.modal-page-footer {
+    padding: 5px 10px 5px 10px;
+    background-color: #f5f5f5;
+    -webkit-border-bottom-left-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    -moz-border-radius-bottomright: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top: 1px solid #ddd;
+    box-shadow: inset 0 1px 0 white;
+    -webkit-box-shadow: inset 0 1px 0 white;
+    -moz-box-shadow: inset 0 1px 0 white;
+    min-height: 30px;
+}
+
+td.align-right {
+    text-align: right;
+}
+
+.rhs {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 2px solid lightgrey;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 5px;
+   font-size: 90%;
+   line-spacing: 80%;
+}
+
+#root-hero-unit {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+/*    background-color: #00477f; */
+/*    color: white;  */
+    padding-left: 20px;
+    min-height: 180px;
+    /* margin-right: 5px; */
+}
+
+#root-hero-unit .root-title {
+    position: relative;
+    top: 50px;
+    font-size: 50px;
+    line-height: 60px;
+    float: left;
+}
+
+#root-hero-unit img {
+    float: right;
+}
+
+.clear-line {
+    width: 100%;
+    clear: both;
+}
+
+.navbar, .navbar-fixed-top{
+      background-color:#003480!important;
+}
+
+@media only screen and (max-width : 1280px){
+      body {
+            margin-top:80px!important;
+      }
+}
+
+
+
+
