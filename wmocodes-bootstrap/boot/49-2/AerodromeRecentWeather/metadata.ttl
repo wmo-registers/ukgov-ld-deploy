@@ -15,7 +15,8 @@
 <AerodromeRecentWeather>
     a reg:Register , ldp:Container , skos:Collection ;
     ldp:membershipPredicate skos:member ;
-    rdfs:label "Aerodrome recent weather" ;
+    rdfs:label "Code Table D-6: Aerodrome recent weather" ;
+    skos:notation "D-6" ;
     dct:description "This register is intended specifically for aeronautical purposes; it lists those weather phenomena that may be observed at an aerodrome during the period since the last issued routine report or last hour, whichever is the shorter, but not at the time of observation as defined in WMO No. 49 Vol II - Meteorological Services for Air Navigation clause [C.3.1.]4.8.1.1. A super-set of cloud-type categories are defined in WMO No. 306 Vol I code-table 4678 'Significant weather'."@en ;
     reg:owner <http://codes.wmo.int/system/organization/wmo> ;
     reg:manager <http://codes.wmo.int/system/organization/www-dm> ;

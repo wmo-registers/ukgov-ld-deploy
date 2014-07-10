@@ -17,7 +17,7 @@
 <MeteorologicalAerodromeObservation>
     a skos:Concept ;
     rdfs:label "MeteorologicalAerodromeObservation"@en ;
-    dct:description "MeteorologicalAerodromeObservation (a subclass of ComplexSamplingMeasurement) is intended for use when reporting an aggregate set of observed meteorological conditions at an Aerodrome. The result of this observation type shall refer to an entity of type MeteorologicalAerodromeObservationRecord. ComplexSamplingMeasurement enforces the sampled feature be an Aerodrome. MeteorologicalAerodromeObservation has a sister Class for forecast information at an Aerodrome: MeteorologicalAerodromeTrendForecast."@en ;
+    dct:description "MeteorologicalAerodromeObservation (a subclass of ComplexSamplingMeasurement from METCE) is intended for use when reporting an aggregate set of observed meteorological conditions at an aerodrome. The result of this observation type shall refer to an entity of type MeteorologicalAerodromeObservationRecord. MeteorologicalAerodromeObservation enforces the following additional constraints: ‘featureOfInterest’ shall refer to an entity of type SF_SamplingPoint and the associated ‘sampledFeature’ must be an Aerodrome. MeteorologicalAerodromeObservation has a peer class for forecast information at an aerodrome: MeteorologicalAerodromeTrendForecast."@en ;
     rdfs:seeAlso <http://codes.wmo.int/common/observation-type/METCE/2013/ComplexSamplingMeasurement> ;
     .
 []
@@ -30,7 +30,7 @@
 <MeteorologicalAerodromeTrendForecast>
     a skos:Concept ;
     rdfs:label "MeteorologicalAerodromeTrendForecast"@en ;
-    dct:description "MeteorologicalAerodromeTrendForecast (a subclass of ComplexSamplingMeasurement) is intended for use when reporting an aggregate set of forecast meteorological conditions at an Aerodrome. The result of this observation type shall refer to an entity of type MeteorologicalAerodromeTrendForecastRecord. MeteorologicalAerodromeTrendForecast additionally enforces that the sampled feature must be an Aerodrome. MeteorologicalAerodromeTrendForecasts are reported in surface observation reports such as SPECI and METAR. MeteorologicalAerodromeTrendForecast has a sister class for trend forecast information at an Aerodrome (MeteorologicalAerodromeObservation) which is also reported on a METAR and SPECI for observed phenomena.  This class is also related but not identical to MeteorologicalAerodromeForecast which is reported on a TAF - conditions reported in trend forecasts in METAR/SPECI differ from forecast groups in a TAF."@en ;
+    dct:description "MeteorologicalAerodromeTrendForecast (a subclass of ComplexSamplingMeasurement from METCE) is intended for use when reporting an aggregate set of forecast meteorological conditions at an aerodrome. The result of this observation type shall refer to an entity of type MeteorologicalAerodromeTrendForecastRecord. MeteorologicalAerodromeTrendForecast enforces the following additional constraints: ‘featureOfInterest’ shall refer to an entity of type SF_SamplingPoint and the associated ‘sampledFeature’ must be an aerodrome. MeteorologicalAerodromeTrendForecasts are reported in surface observation reports such as SPECI and METAR. MeteorologicalAerodromeTrendForecast has a peer class for observation information at an aerodrome (MeteorologicalAerodromeObservation) which is also reported on a METAR and SPECI for observed phenomena. This class is also related but not identical to MeteorologicalAerodromeForecast which is reported on a TAF - conditions reported in trend forecasts in METAR/SPECI differ from forecast groups in a TAF."@en ;
     rdfs:seeAlso <http://codes.wmo.int/common/observation-type/METCE/2013/ComplexSamplingMeasurement> ;
     .
 []
@@ -43,7 +43,7 @@
 <MeteorologicalAerodromeForecast>
     a skos:Concept ;
     rdfs:label "MeteorologicalAerodromeForecast"@en ;
-    dct:description "MeteorologicalAerodromeForecast (a subclass of ComplexSamplingMeasurement) is intended for use when reporting an aggregate set of forecast meteorological conditions at an Aerodrome. The result of this observation type shall refer to an entity of type MeteorologicalAerodromeForecastRecord. MeteorologicalAerodromeForecast enforces that the sampled feature must be an Aerodrome. This class is also related but not identical to MeteorologicalAerodromeTrendForecast which is reported on a METAR/SPECI - conditions reported in trend forecasts in METAR/SPECI differ from forecast groups in a TAF. The TAF forecast group from/to variants (FM, TL, AT, etc.) are represented on the OM_Observation validTime, which is always an instance of TM_Period. When there is only an instant at which a condition occurs, the start and end time are the same."@en ;
+    dct:description "MeteorologicalAerodromeForecast (a subclass of ComplexSamplingMeasurement from METCE) is intended for use when reporting an aggregate set of forecast meteorological conditions at an aerodrome. The result of this observation type shall refer to an entity of type MeteorologicalAerodromeForecastRecord. MeteorologicalAerodromeForecast enforces the following additional constraints: ‘featureOfInterest’ shall refer to an entity of type SF_SamplingPoint and the associated ‘sampledFeature’ must be an Aerodrome. This class is also related but not identical to MeteorologicalAerodromeTrendForecast which is reported on a METAR/SPECI - conditions reported in trend forecasts in METAR/SPECI differ from forecast groups in a TAF. The TAF forecast group from/to variants (FM, TL, AT, etc.) are represented on the OM_Observation validTime, which is always an instance of TM_Period. When there is only an instant at which a condition occurs, the start and end time are the same."@en ;
     rdfs:seeAlso <http://codes.wmo.int/common/observation-type/METCE/2013/ComplexSamplingMeasurement> ;
     .
 []
@@ -56,7 +56,7 @@
 <SIGMETEvolvingConditionAnalysis>
     a skos:Concept ;
     rdfs:label "SIGMETEvolvingConditionAnalysis"@en ;
-    dct:description "SIGMETEvolvingConditionAnalysis (a subclass of SamplingObservation) is intended for use when reporting an aggregate set of meteorological conditions hazardous to flight over a large airspace, including anticipated characteristics. The result of this observation type shall refer to a single EvolvingMeteorologicalCondition which represents a SIGMET observation or forecast of meteorological conditions."@en ;
+    dct:description "SIGMETEvolvingConditionAnalysis (a subclass of SamplingObservation from METCE) is intended for use when reporting an observed or forecast aggregate set of meteorological conditions hazardous to flight over a large airspace, including anticipated intensity change plus speed and direction of motion. The result of this observation type shall refer to a single EvolvingMeteorologicalCondition which represents a SIGMET observation or forecast of meteorological conditions. SIGMETEvolvingConditionAnalysis enforces the following additional constraints: ‘featureOfInterest’ shall refer to an entity of type SF_SamplingSurface and the associated ‘sampledFeature’ must be an airspace."@en ;
     rdfs:seeAlso <http://codes.wmo.int/common/observation-type/METCE/2013/SamplingObservation> ;
     .
 []
@@ -69,6 +69,6 @@
 <SIGMETPositionAnalysis>
     a skos:Concept ;
     rdfs:label "SIGMETPositionAnalysis"@en ;
-    dct:description "SIGMETPositionAnalysis (a subclass of SamplingObservation) is intended for use when reporting the forecast position of meteorological conditions hazardous to flight. The result of this observation type shall refer to one or more MeteorologicalPositions which represents the forecast positions of SIGMET phenomena."@en ;
+    dct:description "SIGMETPositionAnalysis (a subclass of SamplingObservation from METCE) is intended for use when reporting the forecast position of meteorological conditions hazardous to flight. The result of this observation type shall refer to one or more MeteorologicalPositions which represents the forecast positions of SIGMET phenomena. SIGMETPositionAnalysis enforces the following additional constraints: ‘featureOfInterest’ shall refer to an entity of type SF_SamplingSurface and the associated ‘sampledFeature’ must be an airspace."@en ;
     rdfs:seeAlso <http://codes.wmo.int/common/observation-type/METCE/2013/SamplingObservation> ;
     .

@@ -1,6 +1,6 @@
 
 Name:		wmocodes-bootstrap
-Version:	1.0
+Version:	1.1
 Release:	1
 Summary:	wmocodes linked data registry
 
@@ -60,10 +60,8 @@ service tomcat7 start
 /opt/ldregistry/boot/306/4678/metadata.ttl
 /opt/ldregistry/boot/306/4678/contents.ttl
 /opt/ldregistry/boot/49-2/metadata.ttl
-/opt/ldregistry/boot/49-2/AerodromeForecastWeather/metadata.ttl
-/opt/ldregistry/boot/49-2/AerodromeForecastWeather/contents.ttl
-/opt/ldregistry/boot/49-2/AerodromePresentWeather/metadata.ttl
-/opt/ldregistry/boot/49-2/AerodromePresentWeather/contents.ttl
+/opt/ldregistry/boot/49-2/AerodromePresentOrForecastWeather/metadata.ttl
+/opt/ldregistry/boot/49-2/AerodromePresentOrForecastWeather/contents.ttl
 /opt/ldregistry/boot/49-2/AerodromeRecentWeather/metadata.ttl
 /opt/ldregistry/boot/49-2/AerodromeRecentWeather/contents.ttl
 /opt/ldregistry/boot/49-2/CloudAmountReportedAtAerodrome/metadata.ttl

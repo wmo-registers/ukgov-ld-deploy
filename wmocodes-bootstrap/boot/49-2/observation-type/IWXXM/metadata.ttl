@@ -18,5 +18,6 @@
     reg:containedItemClass skos:Collection ;
     rdfs:label "ICAO IWXXM observation types" ;
     reg:owner <http://codes.wmo.int/system/organization/wmo> ;
+    dct:publisher <http://codes.wmo.int/system/organization/wmo> ;
     reg:manager <http://codes.wmo.int/system/organization/www-dm> ;
     .

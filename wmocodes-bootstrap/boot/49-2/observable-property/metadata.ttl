@@ -15,8 +15,10 @@
 <observable-property>
     a reg:Register , ldp:Container , skos:Collection ;
     ldp:membershipPredicate skos:member ;
-    rdfs:label "Observable property resources" ;
-    dct:description "This register is intended specifically for aeronautical purposes; its members are composite observable properties that define the set of physical properties evaluated as a result of regulated procedures such as aerodrome observation and forecast reports (e.g. METAR, SPECI and TAF). The set of physical properties associated with each composite observable property is derived from analysis of the technical regulation ICAO Annex 3 (WMO No. 49 Vol 2) 'Meteorological Services for International Air Navigation'."@en ;
+    rdfs:label "Code Table D-5: IWXXM observable properties" ;
+    skos:notation "D-5" ;
+    dct:description "The items within this code table are composite observable properties that define the set of physical properties evaluated as a result of regulated procedures specified in Technical Regulations, Volume II (WMO-No. 49): Meteorological Services for International Air Navigation. These include aerodrome observation and forecast reports (e.g. METAR, SPECI and TAF). A URI for each observable property is composed by appending the notation to the code-space. As an example, the URI of MeteorologicalAerodromeForecast is http://codes.wmo.int/49-2/observable-property/MeteorologicalAerodromeForecast. The URI is also a URL providing additional information about the associated observable property."@en ;
     reg:owner <http://codes.wmo.int/system/organization/wmo> ;
+    dct:description <http://codes.wmo.int/system/organization/wmo> ;
     reg:manager <http://codes.wmo.int/system/organization/www-dm> ;
     .

@@ -15,7 +15,8 @@
 <CloudAmountReportedAtAerodrome>
     a reg:Register , ldp:Container , skos:Collection ;
     ldp:membershipPredicate skos:member ;
-    rdfs:label "Cloud amount reported at aerodrome" ;
+    rdfs:label "Code Table D-8: Cloud amount reported at aerodrome" ;
+    skos:notation "D-8" ;
     dct:description "This register is intended specifically for aeronautical purposes, as defined in WMO No. 49 Vol II - Meteorological Services for Air Navigation. A super-set of cloud-amount categories are defined in WMO No. 306 Vol I.2 Part B FM 94 BUFR (edition 4) code-table 0 20 008 'Cloud distribution for aviation'."@en ;
     reg:owner <http://codes.wmo.int/system/organization/wmo> ;
     reg:manager <http://codes.wmo.int/system/organization/www-dm> ;

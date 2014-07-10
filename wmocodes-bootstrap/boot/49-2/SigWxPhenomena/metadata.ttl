@@ -15,7 +15,8 @@
 <SigWxPhenomena>
     a reg:Register , ldp:Container , skos:Collection ;
     ldp:membershipPredicate skos:member ;
-    rdfs:label "Significant Weather Phenomena" ;
+    rdfs:label "Code Table D-10: Significant Weather Phenomena" ;
+    skos:notation "D-10" ;
     dct:description "Weather phenomena of significance to aviation operations; used in SIGMET and AIRMET reports. The set of phenomena are defined in WMO No. 49 Vol 2 'Meteorological Services for Air Navigation' C.3.1 sub-clause 1.1.4"@en ;
     reg:owner <http://codes.wmo.int/system/organization/wmo> ;
     reg:manager <http://codes.wmo.int/system/organization/www-dm> ;

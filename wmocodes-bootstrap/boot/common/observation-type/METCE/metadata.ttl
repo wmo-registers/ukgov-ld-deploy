@@ -16,7 +16,8 @@
     a reg:Register , ldp:Container , skos:Collection ;
     ldp:membershipPredicate skos:member ;
     reg:containedItemClass skos:Collection ;
-    rdfs:label "WMO METCE observation types" ;
+    rdfs:label "Code Table D-3: METCE observation types" ;
+    skos:notation "D-3" ;
     reg:owner <http://codes.wmo.int/system/organization/wmo> ;
     reg:manager <http://codes.wmo.int/system/organization/www-dm> ;
     .
