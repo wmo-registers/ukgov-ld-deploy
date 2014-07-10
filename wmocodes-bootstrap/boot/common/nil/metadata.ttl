@@ -1,0 +1,24 @@
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix reg:     <http://purl.org/linked-data/registry#> .
+@prefix ldp:     <http://www.w3.org/ns/ldp#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+
+<_nil>
+    a reg:RegisterItem ;
+    reg:definition [ reg:entity <nil> ] ;
+    reg:itemClass reg:Register ;
+    reg:notation "nil" ;
+    reg:status reg:statusStable ;
+    .
+<nil>
+    a reg:Register , ldp:Container , skos:Collection ;
+    ldp:membershipPredicate skos:member ;
+    reg:containedItemClass skos:Concept ;
+    rdfs:label "Code Table D-1: Nil reasons" ;
+    skos:notation "D-1" ;
+    dct:description "This register provides an endorsed set of 'nil-reason' terms that are used to provide an explanation for recording a missing (or void) value within a data product. Its members include nil-reason terms defined within ISO 19136:2007 'Geographic information - Geography Markup Language' sub-clause 8.2.3.1, further nil-reason terms defined by the Open Geospatial Consortium (at http://www.opengis.net/def/nil/) plus additional nil-reason terms required to express semantics within WMO data products."@en ;
+    reg:owner <http://codes.wmo.int/system/organization/wmo> ;
+    reg:manager <http://codes.wmo.int/system/organization/www-dm> ;
+    .

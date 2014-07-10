@@ -1,0 +1,50 @@
+REBLSN,"Blowing snow"
+REDS,"Duststorm"
+REDZ,"Precipitation of drizzle"
+REFC,"Funnel cloud(s) (tornado or water-spout)"
+REFZDZ,"Precipitation of freezing drizzle"
+REFZRA,"Precipitation of freezing rain"
+REFZUP,"Unidentified freezing precipitation"
+REPL,"Precipitation of ice pellets"
+RERA,"Precipitation of rain"
+RESG,"Precipitation of snow grains"
+RESHRA,"Showery precipitation of rain" 
+RESHSN,"Showery precipitation of snow"
+RESHGS,"Showery precipitation of snow pellets/small hail"
+RESHGR,"Showery precipitation of hail"
+RESHUP,"Showery precipitation of unidentified precipitation"
+RESN,"Precipitation of snow"
+RESS,"Sandstorm"
+RETS,"Thunderstorm"
+RETSGS,"Thunderstorm with precipitation of snow pellets/small hail"
+RETSGR,"Thunderstorm with precipitation of hail"
+RETSRA,"Thunderstorm with precipitation of rain"
+RETSSN,"Thunderstorm with precipitation of snow"
+RETSUP,"Thunderstorm with unidentified precipitation"
+REUP,"Unidentified precipitation"
+REVA,"Volcanic ash"
+
+---
+
+Note: Use of precipitation type IC "Ice crystals" is deprecated as of Amd 76 to ICAO Annex 3 (Nov 2013)
+Note: Use of precipitation type SG "Snow grains" shall only be used without qualification of SH (shower) or TS (thunderstorm)
+Note: Use of precipitation types GS "Small hail and/or snow pellets" and GR "Hail" shall only be used with qualification of SH (shower) or TS (thunderstorm)
+Note: When reporting recent weather for METAR the following regulation applies (15.13.2.1)
+
+    Up to three groups of information on recent weather shall be given by the indicator letters
+    RE followed, without a space, by the appropriate abbreviations, in accordance with
+    Regulation 15.8 (but no intensity of the recent weather phenomena shall be indicated) if the
+    following weather phenomena were observed during the period since the last routine
+    report, or last hour, whichever is shorter, but not at the time of observation:
+    — Freezing precipitation;
+    — Moderate or heavy drizzle, rain or snow;
+    — Moderate or heavy: ice pellets, hail, small hail and/or snow pellets;
+    — Blowing snow;
+    — Sandstorm or duststorm;
+    — Thunderstorm;
+    — Funnel cloud(s) (tornado or water-spout);
+    — Volcanic ash.
+    When an automatic observing system is used and when the type of the precipitation cannot
+    be identified by this system, the abbreviation REUP shall be used for recent precipitation.
+    It may be combined with the characteristics of the present weather in accordance with
+    Regulation 15.8.6.
