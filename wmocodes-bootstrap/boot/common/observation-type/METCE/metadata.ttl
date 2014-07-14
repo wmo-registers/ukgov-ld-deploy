@@ -18,6 +18,7 @@
     reg:containedItemClass skos:Collection ;
     rdfs:label "Code Table D-3: METCE observation types" ;
     skos:notation "D-3" ;
+    dct:description "The items within this code table are specialized observation or measurement types defined within 'Modèle pour l'Échange des informations sur le Temps, le Climat et l'Eau' (METCE). Each observation or measurement type listed herein is specified as a class in METCE that derives from the OM_Observation class (defined in ISO 19156, Geographic information - Observations and measurements, clause 6.2) or sub-class thereof."@en ;
     reg:owner <http://codes.wmo.int/system/organization/wmo> ;
     reg:manager <http://codes.wmo.int/system/organization/www-dm> ;
     .

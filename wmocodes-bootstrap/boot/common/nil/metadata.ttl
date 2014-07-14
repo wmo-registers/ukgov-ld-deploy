@@ -18,7 +18,7 @@
     reg:containedItemClass skos:Concept ;
     rdfs:label "Code Table D-1: Nil reasons" ;
     skos:notation "D-1" ;
-    dct:description "This register provides an endorsed set of 'nil-reason' terms that are used to provide an explanation for recording a missing (or void) value within a data product. Its members include nil-reason terms defined within ISO 19136:2007 'Geographic information - Geography Markup Language' sub-clause 8.2.3.1, further nil-reason terms defined by the Open Geospatial Consortium (at http://www.opengis.net/def/nil/) plus additional nil-reason terms required to express semantics within WMO data products."@en ;
+    dct:description "Nil-reason terms are used to provide an explanation for recording a missing (or void) value within a data product. Terms are drawn from authorities in addition to WMO including ISO/TC 211 (from ISO 19136:2007 Geography markup language clause 8.2.3.1; published on their behalf by the Open Geospatial Consortium)."@en ;
     reg:owner <http://codes.wmo.int/system/organization/wmo> ;
     reg:manager <http://codes.wmo.int/system/organization/www-dm> ;
     .

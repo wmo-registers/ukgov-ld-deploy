@@ -17,7 +17,7 @@
     ldp:membershipPredicate skos:member ;
     reg:containedItemClass skos:Concept ;
     rdfs:label "WMO METCE observation types (2013)" ;
-    dct:description "The members of this register are concepts relating to specialised Observation or Measurement classes defined within WMO's 'Modèle pour l'Échange des informations sur le Temps, le Climat et l'Eau' (METCE/2013). Each Observation or Measurement class listed herein derives from the OM_Observation class defined in ISO 19156 'Geographic information - Observations and measurements'."@en ;
+    dct:description "Observation types for METCE (2013)."@en ;
     reg:owner <http://codes.wmo.int/system/organization/wmo> ;
     reg:manager <http://codes.wmo.int/system/organization/www-dm> ;
     .
