@@ -1,6 +1,6 @@
 
 Name:		wmocodes-bootstrap
-Version:	1.1
+Version:	1.2
 Release:	1
 Summary:	wmocodes linked data registry
 

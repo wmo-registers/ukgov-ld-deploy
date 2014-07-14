@@ -18,7 +18,7 @@
     reg:containedItemClass skos:Concept ;
     rdfs:label "Code Table D-4: IWXXM observation types" ;
     skos:notation "D-4" ;
-    dct:description "The items within this code table are specialized observation or measurement types defined within the ICAO Meteorological Information Exchange Model (IWXXM). Each observation or measurement type listed herein is specified as a class in IWXXM that derives from the OM_Observation class (defined in ISO 19156, Geographic information - Observations and measurements, clause 6.2) or sub-class thereof. A URI for each observation type is composed by appending the notation to the code-space. As an example, the URI of MeteorologicalAerodromeForecast is http://codes.wmo.int/49-2/observation-type/IWXXM/1.0/MeteorologicalAerodromeForecast. The URI is also a URL providing additional information about the associated observation type. This code table is published at http://codes.wmo.int/49-2/observation-type/IWXXM/1.0."@en ;
+    dct:description "The items within this code table are specialized observation or measurement types defined within the ICAO Meteorological Information Exchange Model (IWXXM). Each observation or measurement type listed herein is specified as a class in IWXXM that derives from the OM_Observation class (defined in ISO 19156, Geographic information - Observations and measurements, clause 6.2) or sub-class thereof."@en ;
     reg:owner <http://codes.wmo.int/system/organization/wmo> ;
     dct:publisher <http://codes.wmo.int/system/organization/wmo> ;
     reg:manager <http://codes.wmo.int/system/organization/www-dm> ;
