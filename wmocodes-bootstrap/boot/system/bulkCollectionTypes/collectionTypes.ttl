@@ -68,7 +68,7 @@ ldp:Container a owl:Class ;
     ldp:inverseMembershipPredicate rdfs:isDefinedBy ;
     .
  
-ldp:Container a owl:Class ;
-    rdfs:label "OWL Class"@en ;
+owl:Ontology a owl:Class ;
+    rdfs:label "OWL Ontology"@en ;
     .
 
