@@ -58,3 +58,17 @@ reg:Register a owl:Class;
 ldp:Container a owl:Class ;
     rdfs:label "LDP Container"@en ;
     .
+
+<_owl-ontology> a reg:RegisterItem ;
+    rdfs:label "OWL Ontology"@en;
+    dct:description "Registration of owl:Ontology as a legal batch upload type"@en;
+    reg:itemClass owl:Class;
+    reg:status reg:statusStable;
+    reg:definition [ reg:entity owl:Ontology ];
+    ldp:inverseMembershipPredicate rdfs:isDefinedBy ;
+    .
+ 
+ldp:Container a owl:Class ;
+    rdfs:label "OWL Class"@en ;
+    .
+
