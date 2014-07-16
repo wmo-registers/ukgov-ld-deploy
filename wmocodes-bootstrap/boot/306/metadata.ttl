@@ -14,8 +14,9 @@
     .
 <306>
     a reg:Register , ldp:Container ;
-    rdfs:label "306"@en ;
-    dct:description "WMO No. 306 Manual on Codes."@en ;
+    rdfs:label "Code Table 306: Significant Weather"@en ;
+    dct:description "WMO No. 306 Manual on Codes: Significant Weather."@en ;
+    skos:notation "306" ;
     reg:owner <http://codes.wmo.int/system/organization/wmo> ;
     reg:manager <http://codes.wmo.int/system/organization/www-dm> ;
     .

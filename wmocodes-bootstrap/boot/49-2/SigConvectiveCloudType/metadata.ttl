@@ -17,7 +17,7 @@
     ldp:membershipPredicate skos:member ;
     rdfs:label "Code Table D-9: Significant convective cloud type" ;
     skos:notation "D-9" ;
-    dct:description "This register is intended specifically for aeronautical purposes; it lists those cloud types of significance to aeronautical operations as defined in WMO No. 49 Vol II - Meteorological Services for Air Navigation. A super-set of cloud-type categories are defined in WMO No. 306 Vol I.2 Part B FM 94 BUFR (edition 4) code-table 0 20 012 'Cloud type'."@en ;
+    dct:description "The items within this code table are the cloud types of operational significance for aviation as specified in Technical Regulations, Volume II (WMO-No. 49): Meteorological Services for International Air Navigation. This code table contains a subset of the cloud types defined in Part B FM 94 BUFR Code Table 0 20 012."@en ;
     reg:owner <http://codes.wmo.int/system/organization/wmo> ;
     reg:manager <http://codes.wmo.int/system/organization/www-dm> ;
     .
