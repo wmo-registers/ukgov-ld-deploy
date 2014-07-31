@@ -1,7 +1,7 @@
 
 Name:		wmocodes-bootstrap
-Version:	1.2
-Release:	5
+Version:	1.3
+Release:	1
 Summary:	wmocodes linked data registry
 
 License:	apache
